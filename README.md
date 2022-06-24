@@ -1,2 +1,2 @@
-# Laundry
+# ini adalah tugas
 Basdat II
