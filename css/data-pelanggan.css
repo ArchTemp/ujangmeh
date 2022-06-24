@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cabin:wght@700&family=Fira+Sans+Condensed:wght@300;700&family=Josefin+Sans:wght@700&family=Lexend+Deca:wght@300&family=Manrope:wght@800&family=Montserrat:wght@100;800&family=Poppins:wght@100;200;300&family=Red+Hat+Display:ital,wght@1,900&family=Roboto+Slab:wght@300&family=Roboto:wght@300;400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    justify-content: center;
+    position: fixed;
+}
+
+.title {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align:center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.table {
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+
+table, td {
+    width: 1220px;
+    height: 30px;
+    text-align: center;
+}
+
+table th{
+    height: 30px;
+    background-color: #9DD6DF;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+table tr {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+.table table tr:nth-of-type(even){
+    background-color: #d2d2d2;
+}
+
+.table table tr:nth-of-type(odd){
+    background-color: #acacac;
+}
+
+.col {
+    height: 40px;
+    background-color: aliceblue;
+}
+
+.action {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+
+.edit {
+    background-image: url(../images/edit.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.hapus {
+    background-image: url(../images/delete.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* table, td{
+    border: 1px solid black;
+    align-items: center;
+}
+
+td{
+    text-align: center;
+    width: 100px;
+} */
