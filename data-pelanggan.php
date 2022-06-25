@@ -40,7 +40,7 @@ include "koneksi.php";
                             <td><?= $data['no_telp'] ?></td>
                             <td><?= $data['alamat'] ?></td>
                             <td class="action">
-                                <a href="">
+                                <a href="edit.php?id_pelanggan=<?php echo $data['id_pelanggan']?>">
                                     <div class="edit"></div>
                                 </a>
                                 <a href="delete.php?id_pelanggan=<?php echo $data['id_pelanggan']?>">

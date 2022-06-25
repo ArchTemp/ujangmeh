@@ -28,6 +28,7 @@ include "koneksi.php";
             <a href="data-pelanggan.php" class="wrapper">Data Pelanggan</a>
             <a href="data-laundry.php" class="wrapper">Data Laundry</a>
             <a href="" class="wrapper">Data Petugas</a>
+            <a href="" class="wrapper">Cari Data Pelanggan</a>
         </div>
         <div class="dashboard">
             <div class="title">
